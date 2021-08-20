@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Project\\personal\\remote\\hasanural.com\\src\\hasanural.web\\hasanural.web.csproj": {}
+  },
+  "projects": {
+    "D:\\Project\\personal\\remote\\hasanural.com\\src\\hasanural.web\\hasanural.web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\personal\\remote\\hasanural.com\\src\\hasanural.web\\hasanural.web.csproj",
+        "projectName": "hasanural.web",
+        "projectPath": "D:\\Project\\personal\\remote\\hasanural.com\\src\\hasanural.web\\hasanural.web.csproj",
+        "packagesPath": "C:\\Users\\hasan.ural\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\personal\\remote\\hasanural.com\\src\\hasanural.web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hasan.ural\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://devops.istikbal.com.tr/OldProjectsCollection/_packaging/IstikbalOldProjectsPackages/nuget/v3/index.json": {},
+          "https://devops.istikbal.com.tr/OldProjectsCollection/_packaging/MerkezCelikPackages/nuget/v3/index.json": {},
+          "https://devops.istikbal.com.tr/Packages/_packaging/IstikbalPackages/nuget/v3/index.json": {},
+          "https://nuget.pkg.github.com/metalsimyaci/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
