@@ -1,22 +1,32 @@
 {
-    "name": "hasanuralcom-frontend",
+    "name": "hasanuralcom",
     "version": "1.0.1",
+    "author": {
+        "email": "metalsimyaci@gmail.com",
+        "name": "metalsimyaci",
+        "url": "https://hasanural.com"
+    },
     "scripts": {
         "dev": "vite",
         "build": "vue-tsc --noEmit && vite build",
         "serve": "vite preview"
     },
     "dependencies": {
+        "feather-icons": "^4.28.0",
         "vue": "^3.2.6",
-        "vue-router": "next",
-        "vuex": "next"
+        "vue-router": "^4.0.11",
+        "vuex": "^4.0.2"
     },
     "devDependencies": {
-        "@vitejs/plugin-vue": "^1.3.0",
+        "@types/feather-icons": "^4.7.0",
+        "@vitejs/plugin-vue": "^1.6.1",
         "@vue/compiler-sfc": "^3.2.6",
-        "sass": "latest",
-        "typescript": "latest",
-        "vite": "latest",
+        "autoprefixer": "^10.3.4",
+        "postcss": "^8.3.6",
+        "sass": "^1.39.0",
+        "tailwindcss": "^2.2.14",
+        "typescript": "^4.3.2",
+        "vite": "^2.5.4",
         "vue-tsc": "^0.2.2"
     }
 }

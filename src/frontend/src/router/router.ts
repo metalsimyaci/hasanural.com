@@ -5,6 +5,9 @@ const routes: Array<RouteRecordRaw> = [
         path: '/',
         name: 'Home',
         component: () => import('/src/views/Home.vue'),
+        meta: {
+            title: 'Ana Sayfa',
+        },
     }
 ];
 
