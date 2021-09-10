@@ -1,5 +1,34 @@
 <template>
-    <div class="container m-10">
+    <div class="container border-1 border-secondary-light">
+        <div
+            class="
+                flex
+                card
+                bg-white
+                dark:bg-gray-800
+                rounded-xl
+                sm:rounded-xl
+                p-5
+            "
+        >
+            <div class="items-center align-middle">
+                <h2
+                    class="
+                        text-black
+                        dark:text-white
+                        text-base
+                        sm:text-xl
+                        lg:text-base
+                        xl:text-xl
+                        font-semibold
+                    "
+                >
+                    Hi
+                </h2>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container m-10">
         <div
             class="
                 bg-white
@@ -220,7 +249,7 @@
                 1.0x
             </button>
         </div>
-    </div>
+    </div> -->
 </template>
 
 <script lang="ts" setup></script>

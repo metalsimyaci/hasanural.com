@@ -30,8 +30,6 @@
                 </div>
 
                 <theme-switcher
-                    :dheme="theme"
-                    @themeChanged="updateTheme"
                     class="
                         block
                         bg-ternary-light
@@ -51,30 +49,30 @@
 </template>
 
 <script lang="ts" setup>
-import feather from "feather-icons";
+// import feather from "feather-icons";
 import ThemeSwitcher from "../ThemeSwitcher.vue";
-import { onUpdated, reactive, ref } from "vue";
-import { useRouter } from "vue-router";
+// import { onUpdated, reactive, ref } from "vue";
+// import { useRouter } from "vue-router";
 
-const router = useRouter();
-let theme = ref("");
-theme.value = localStorage.getItem("theme") || "light";
+// const router = useRouter();
+// let theme = ref("");
+// theme.value = localStorage.getItem("theme") || "light";
 
-// onMounted(() => {
-//     theme = localStorage.getItem("theme") || "light";
+// // onMounted(() => {
+// //     theme = localStorage.getItem("theme") || "light";
+// //     feather.replace();
+// // });
+// onUpdated(() => {
+//     console.log("UPDATE");
+//     theme.value = localStorage.getItem("theme") || "light";
+//     console.log("UPDATE", theme.value);
 //     feather.replace();
 // });
-onUpdated(() => {
-    console.log("UPDATE");
-    theme.value = localStorage.getItem("theme") || "light";
-    console.log("UPDATE", theme.value);
-    feather.replace();
-});
-const updateTheme = (th: string) => {
-    console.log("updateTheme");
-    console.log("blaaa", th);
-    console.log("hhhhh", theme.value);
-    theme.value = th;
-    router.push({ name: "Home" });
-};
+// const updateTheme = (th: string) => {
+//     console.log("updateTheme");
+//     console.log("blaaa", th);
+//     console.log("hhhhh", theme.value);
+//     theme.value = th;
+//     router.push({ name: "Home" });
+// };
 </script>

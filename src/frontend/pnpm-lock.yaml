@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@types/feather-icons': ^4.7.0
   '@vitejs/plugin-vue': ^1.6.1
-  '@vue/compiler-sfc': ^3.2.6
+  '@vue/compiler-sfc': ^3.2.11
   autoprefixer: ^10.3.4
   feather-icons: ^4.28.0
   postcss: ^8.3.6
@@ -11,7 +11,7 @@ specifiers:
   tailwindcss: ^2.2.14
   typescript: ^4.3.2
   vite: ^2.5.4
-  vue: ^3.2.6
+  vue: ^3.2.11
   vue-router: ^4.0.11
   vue-tsc: ^0.2.2
   vuex: ^4.0.2
